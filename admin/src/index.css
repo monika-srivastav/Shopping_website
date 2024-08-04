@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body{
+  margin:0;
+  font-family: "Poppins";
+  background-color: beige;
+  height: 100vh;
+}
+
+@layer base{
+
+  h1{
+      @apply text-4xl;
+      @apply font-bold;
+  }
+  h2{
+      @apply text-3xl;
+      @apply font-bold;
+  }
+  h3{
+      @apply text-2xl;
+      @apply font-bold;
+  }
+  h4{
+      @apply text-xl;
+      @apply font-bold;
+  }
+  h5{
+      @apply text-lg;
+      @apply font-semibold;
+  }
+  h6{
+      @apply text-sm;
+      @apply font-semibold;
+  }
+}
