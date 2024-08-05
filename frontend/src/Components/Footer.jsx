@@ -2,7 +2,7 @@
 // import insta from '../Assets/insta.jfif'
 // import whatsapp from '../Assets/whatsapp.jfif'
 // import printerest from '../Assets/printerest.jfif'
-import logo from '../Assets/logo.png'
+// import logo from '../Assets/logo.png'
 const Footer = () => {
     return (
         <div className='footer overflow-hidden flex flex-col justify-center items-center max-md:gap-5 gap-2'>
